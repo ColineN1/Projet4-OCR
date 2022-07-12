@@ -62,22 +62,6 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat
 }
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0
-}
-
-.texture-paper::before {
-    background: url(https://colinen1.github.io/Projet4-OCR/img/texture-paper_1.webp);
-    background-size: 280px 280px
-}
-
 .b-parallax {
     background-attachment: fixed
 }
@@ -314,8 +298,7 @@ a[data-lightbox] {
     text-align: center
 }
 
-a[data-lightbox]:hover::before {
-    content: "+";
+a[data-lightbox]:hover {
     font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
@@ -454,7 +437,7 @@ h1 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ec7a45 !important;
+    background: #481C09 !important;
     color: #fff !important
 }
 
@@ -625,8 +608,8 @@ aside img {
 }
 .img-back{
     position:absolute;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     opacity: 0.6;
     filter: brightness(40%);
 }

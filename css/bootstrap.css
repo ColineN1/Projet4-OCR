@@ -4420,7 +4420,6 @@ tbody.collapse.in {
 
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
-    content: "";
     border-top: 0;
     border-bottom: 4px dashed;
     border-bottom: 4px solid\9
@@ -5047,14 +5046,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .nav-tabs-justified>.active>a:hover {
         border-bottom-color: #fff
     }
-}
-
-.tab-content>.tab-pane {
-    display: none
-}
-
-.tab-content>.active {
-    display: block
 }
 
 .nav-tabs .dropdown-menu {
