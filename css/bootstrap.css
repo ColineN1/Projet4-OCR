@@ -1436,8 +1436,10 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
+    align-items: center;
     max-width: 100%;
-    height: auto
+    height: auto;
+    width: 100%;
 }
 
 .img-rounded {
@@ -4286,7 +4288,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,7 +4375,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5125,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7161,6 +7162,11 @@ button.close {
     padding: 15px
 }
 
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+
 .modal-footer {
     padding: 15px;
     text-align: right;
@@ -7190,7 +7196,7 @@ button.close {
 
 @media (min-width:768px) {
     .modal-dialog {
-        width: 600px;
+        width: 400px;
         margin: 30px auto
     }
     .modal-content {
