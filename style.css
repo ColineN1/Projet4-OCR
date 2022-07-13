@@ -601,19 +601,6 @@ h1 {
 a {
     text-decoration: underline
 }
-
-aside img {
-    height: 100px;
-    width: 100px
-}
-.img-back{
-    position:absolute;
-    min-width: 100%;
-    width: auto;
-    height: 100%;
-    opacity: 0.6;
-    filter: brightness(40%);
-}
 .snapshot-lb .modal-body {
     padding-bottom: 45px
 }
@@ -624,5 +611,12 @@ aside img {
     background: none
 }
 .bg-presentation {
-    background-image: url(img/image-de-presentation.webp)
+    background-image: url(img/image-de-presentation.webp);
+    width: 100%;
+    height:auto;
+}
+.bg-banniere {
+    background-image: url(img/agence-la-panthere.webp);
+    width: 100%;
+    height:auto;    
 }
