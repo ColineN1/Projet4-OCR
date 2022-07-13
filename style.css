@@ -623,3 +623,6 @@ aside img {
     color: rgba(0, 0, 0, .5);
     background: none
 }
+.bg-presentation {
+    background-image: url(img/image-de-presentation.webp)
+}
