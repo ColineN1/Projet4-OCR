@@ -457,14 +457,6 @@ h1 {
     border-color: #364577 !important
 }
 
-/* .bg-banniere {
-    background-image: url(https://colinen1.github.io/Projet4-OCR/img/agence-la-panthere.webp)
-} */
-
-.bg-presentation {
-    background-image: url(https://colinen1.github.io/Projet4-OCR/img/image-de-presentation.webp)
-}
-
 @media (max-width:1024px) {
     .bloc {
         padding-left: 20px;
