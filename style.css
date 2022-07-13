@@ -17,7 +17,10 @@ a:hover {
     text-decoration: none;
     cursor: pointer
 }
-
+aside img {
+    height: 100px;
+    width: 100px;
+}
 .bloc {
     width: 100%;
     clear: both;
